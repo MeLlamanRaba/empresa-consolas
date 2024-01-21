@@ -2,7 +2,7 @@
 
 - **Nombre y Apellidos:** Antonio Rabaneda López
 - **Nombre del Módulo:** Lenguaje de marcas
-- **Instituto:** IES Aguadulce s
+- **Instituto:** IES Aguadulce
 - **Curso Escolar:** 2023/2024
 - **Enlace a la Web:** []
 
