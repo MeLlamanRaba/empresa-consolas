@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-paisaje-retro-futurista-sol_52683-18176.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    margin-top: 20px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    margin: 20px;
+}
+section{
+    margin: 20px;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.galeria img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.galeria img:hover {
+    transform: scale(1.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #d160f3;
+    padding: 20px;
+    text-align:left;
+}
+
+th {
+    background-color: #881697;
+}
+.imagen img {
+    width: 20%;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+}
+input,select,textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+select {
+    height: 40px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="reset"],
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+h1{
+    color:rgb(236, 135, 40);
+    background-color:rgb(107, 25, 128);
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    border-radius: 0 30% 0 30%; 
+}
+
+
