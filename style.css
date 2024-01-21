@@ -9,6 +9,14 @@ header{
     text-align: center;
     padding: 20px;
 }
+h1{
+    color:rgb(236, 135, 40);
+    background-color:rgb(107, 25, 128);
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    border-radius: 0 30% 0 30%; 
+}
 nav{
     margin-top: 20px;
 }
@@ -46,7 +54,7 @@ table {
 th, td {
     border: 1px solid #d160f3;
     padding: 20px;
-    text-align:left;
+    text-align:center;
 }
 
 th {
@@ -57,7 +65,7 @@ th {
 }
 form {
     max-width: 600px;
-    margin: auto;
+    margin:auto;
 }
 input,select,textarea {
     width: 100%;
@@ -87,13 +95,6 @@ input[type="reset"]:hover,
 input[type="submit"]:hover {
     background-color: #45a049;
 }
-h1{
-    color:rgb(236, 135, 40);
-    background-color:rgb(107, 25, 128);
-    text-align: center;
-    margin: auto;
-    width: 30%;
-    border-radius: 0 30% 0 30%; 
-}
+
 
 
